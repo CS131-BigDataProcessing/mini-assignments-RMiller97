@@ -1,0 +1,46 @@
+# Question 1: What are all the airlines? What awk command did you use to get 
+# this information?
+
+
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+# This was the entire command I used
+# awk -F, '{print $4}' airline_stats.csv | sort | uniq
+# '{print $4}' is used to print out all the values in the 4th column.
+# I then piped that info into sort and uniq, which displayed all the
+# unique airlines (i.e. no repeating airlines)
+
+# Question 2A: Which airlines have (include your awk command for part a & b)
+# Has a carrier delay greater than 10 and print airline names
+# (alphabetically. Hint* pipe input into sort)
+
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+# The command I used was
+# awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+
+# Question 2B: Which airlines have: (include your awk command for part a and b)
+# Has a carrier delay greater than a certain threshold of 15?
+# Use -v to pass in a value that is set to 'Threshold=15'
+
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+# I used this command
+# awk -v Threshold=15 -F, '{ if ($1>Threshold) print $4 }' airline_stats.csv|sort|uniq
+
+ 

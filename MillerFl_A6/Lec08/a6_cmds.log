@@ -1,0 +1,547 @@
+    1  pwd
+    2  passwd
+    3  ping 172.20.25.9
+    4  exit
+    5  wget www.github.com
+    6  ls
+    7  rm index.html 
+    8  exit
+    9  vi test.txt
+   10  vi input.txt
+   11  pwd
+   12  mkdir testdir
+   13  ls
+   14  cat
+   15  man tar
+   16  man ls
+   17  ls -F
+   18  ls -latr
+   19  ls -1
+   20  ls
+   21  ls -1
+   22  ls -l
+   23  mkdir testdir2
+   24  vi test3.txt
+   25  ls -l
+   26  mv test3.txt ../testdir2/.
+   27  mv test3.txt ../testdir2/
+   28  cp test3.txt ../testdir/.
+   29  cp test3.txt ../testdir/
+   30  mv test3.txt ../testdir/
+   31  mv test3.txt ../testdir2
+   32  ls -l
+   33  vi givemepermission.txt
+   34  ls -l
+   35  chmod 764 givemepermission.txt
+   36  ls -1
+   37  ls -l
+   38  exit
+   39  vi test2.txt
+   40  git clone git@github.com:your/github/repository
+   41  git clone git@github.com:RMiller97/a1-collab-RMiller97
+   42  exit
+   43  git clone git@github.com:RMiller207/a1-collab-RMiller207
+   44  git status
+   45  git branch
+   46  git branch RMiller207-colab
+   47  git@github.com:RMiller207/a1-collab-
+   48  git clone git@github.com:RMiller207/a1-collab-RMiller207.git
+   49  git clone https://github.com/RMiller207/a1-collab-RMiller207.git
+   50  cd
+   51  cd https://github.com/RMiller207/a1-collab-RMiller207.git
+   52  git branch
+   53  git status
+   54  ls
+   55  cd a1-collab-RMiller207
+   56  git branch
+   57  git branch RMiller207-colab
+   58  git branch
+   59  git checkout <RMiller207>
+   60  git checkout<RMiller207-colab>
+   61  get checkout RMiller207-colab
+   62  git branch
+   63  git checkout RMiller207-colab
+   64  git branch
+   65  git status
+   66  git checkout main
+   67  git status
+   68  git checkout RMiller97-colab
+   69  git checkout RMiller207 colab
+   70  git checkout RMiller207-colab
+   71  git status
+   72  git push --set-upstream origin RMiller207-colab
+   73  git status
+   74  git branch
+   75  git pull origin main
+   76  git checkout main
+   77  git branch
+   78  git merge RMiller207-colab
+   79  git add Collaborators.md
+   80  git branch
+   81  git commit -m "Ryan Miller added to collaborators"
+   82  git push
+   83  git status
+   84  git branch
+   85  git add Collaborators.md
+   86  git branch
+   87  git commit -m "Ryan Miller added to collaborators"
+   88  git confic user.email "ryan.miller@sjsu.edu"
+   89  git config user.email "ryan.miller@sjsu.edu"
+   90  git config user.name "Ryan Miller"
+   91  git add Collaborators.md
+   92  git commit -m "Ryan Miller added to collaborators"
+   93  git status
+   94  git branch
+   95  git push
+   96  git branch
+   97  branch
+   98  get branch
+   99  git branch
+  100  ls
+  101  cat input.txt
+  102  :set number
+  103  set number
+  104  vi
+  105  ls
+  106  vi test2024_09_04.txt
+  107  ls
+  108  open input.txt
+  109  o input.txt
+  110  input.txt
+  111  wc -l test3.txt
+  112  wc -l test2024_09_04.txt
+  113  wc test2024_09_04.txt
+  114  echo "me"
+  115  pwd
+  116  echo 'pwd'
+  117  echo "pwd"
+  118  'pwd'
+  119  echo $HOME
+  120  `pwd`
+  121  echo `pwd`
+  122  echo "pwd"
+  123  ls ~/.ssh
+  124  exit
+  125  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles
+  126  cat ~/.ssh/id_rsa.pub
+  127  ls ~/.ssh
+  128  exit
+  129  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles
+  130  ls ~/.ssh
+  131  ls -al ~/.ssh
+  132  ssh-keygen -t ed25519 -C "ryanmiller231@gmail.com"
+  133  eval "$(ssh-agent -s)"
+  134  open ~/.ssh/config
+  135  touch ~/.ssh/config
+  136  open ~/.ssh/config
+  137  ls
+  138  touch ~/.ssh/config
+  139  ls
+  140  open ~/.ssh/config
+  141  ls -l ~/.ssh.config
+  142  touch ~/.ssh/config
+  143  cat ~/.ssh/config
+  144  open ~/.ssh/config
+  145  nano ~/.ssh/config
+  146  ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  147  pbcopy <k ~/.ssh/id_ed25519.pub
+  148  ls ~/.ssh
+  149  nano id_ed25519.pub
+  150  nano id_ed25519
+  151  open id_ed25519.pub
+  152  cat id_ed25519.pub
+  153  vi id_ed25519.pub
+  154  ls -al ~/.ssh
+  155  ssh-keygen -t rsa -b 4096 -C "ryanmiller231@gmail.com"
+  156  eval "$(ssh-agent -s)"
+  157  ls ~/.ssh/config
+  158  open ~/.ssh/config
+  159  vi ~/.ssh/config
+  160  ls
+  161  ls ~/.ssh
+  162  rm id_ed25519
+  163  rm ~/.ssh/id_ed25519
+  164  rm ~/.ssh/id_ed25519.pub
+  165  ls ~/.ssh
+  166  open ~/.ssh/config
+  167  nano ~/.ssh/config
+  168  ssh-add --apple-use-keychain ~/.ssh/id_rsa
+  169  nano ~/.ssh/id_rsa.pub
+  170  pbcopy < ~/.ssh/id_rsa.pub
+  171  nano ~/.ssh/id_rsa.pub
+  172  nano ~/.ssh/id_rsa
+  173  vi ~/.ssh/id_rsa
+  174  pbcopy < ~/.ssh/id_rsa
+  175  ls ~/.ssh
+  176  open ~/.ssh/id_rsa
+  177  nano ~/.ssh/id_rsa
+  178  vi ~/.ssh/id_rsa
+  179  pbcopy < ~/.shh/id_rsa
+  180  pbcopy ~/.ssh/id_rsa
+  181  which pbcopy
+  182  cat ~/.ssh/id_rsa
+  183  cat ~/.ssh/id_rsa.pub
+  184  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles
+  185  chmod 700 ~/.ssh
+  186  chmod 600 ~/.ssh/config
+  187  chmod 600 ~/.ssh/id_rsa
+  188  chmod 644 ~/.ssh/id_rsa.pub
+  189  ls -ld ~/.ssh
+  190  ls -l ~/.ssh
+  191  vi ~/.ssh/config
+  192  ssh -T git@github.com
+  193  vi ~/.ssh/config
+  194  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles
+  195  vi ~/.ssh/config
+  196  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles
+  197  git branch
+  198  ls 
+  199  git branch
+  200  git checkout CS131_fa24_datafiles
+  201  git status
+  202  cd /.ssh/CS131_fa24_datafiles
+  203  cd CS131_fa24_datafiles
+  204  git status
+  205  ls
+  206  cs Lec02
+  207  cd Lec02
+  208  ls
+  209  cat goodluck.txt
+  210  vi goodluck.txt
+  211  grep "Good luck, babe" goodluck.txt
+  212  wc -l goodluck.txt
+  213  wc goodluck.txt
+  214  cdrmillerfa24@sjsu
+  215  cd rmillerfa24@sjsu
+  216  cd
+  217  ls
+  218  cd CS131_fa24_datafiles
+  219  ls
+  220  git status
+  221  cd
+  222  exit
+  223  git branch MillerF_A4_shell
+  224  ls
+  225  echo "Hello $Ryan $Miller"
+  226  #!/bin/bash
+  227  Ryan=$1
+  228  Miller=$2
+  229  echo "Hello, $1 $2"
+  230  echo "Hello, $Ryan $Miller"
+  231  sh class_practice.sh Ryan Miller
+  232  mkdir 'MillerF_A4_shell'
+  233  cd MillerF_A4_shell
+  234  vi classpractice.sh
+  235  sh class_practive.sh Ryan Miller
+  236  sh class_practice.sh Ryan Miller
+  237  ls
+  238  sh classpractice.sh Ryan Miller
+  239  vi classpractice.sh
+  240  sh classpractice.sh Ryan Miller
+  241  sh classpractice.sh $1 $2
+  242  vi classpractice.sh
+  243  sh classpractice.sh
+  244  sh classpractice.sh Ryan Miller
+  245  ls
+  246  cd rmillerfa24@sjsu
+  247  cd
+  248  ls
+  249  cd MillerF_A4_shell
+  250  ls
+  251  vi classpractice.sh
+  252  sh classpractice.sh Ryan Miller
+  253  sh classpractice.sh Violet Gray
+  254  vi classpractice.sh
+  255  sh classpractice.sh Violet Gray
+  256  vi classpractice.sh
+  257  sh classpractice.sh Violet Gray
+  258  cd
+  259  ls
+  260  ls -lahtr
+  261  ls
+  262  vi classpractice.sh
+  263  cd MillerF_A4_shell
+  264  vi classpractice.sh
+  265  cd
+  266  exit
+  267  my_variable="Hello, I am your variable"
+  268  echo $my_variable
+  269  exit
+  270  cat ~/.bash_profile
+  271  cat ~/.bashrc
+  272  vi ~/.bashrc
+  273  ls
+  274  ls -A
+  275  cat ~/.bashrc
+  276  exit
+  277  ls
+  278  ls -A
+  279  vi ~./bashrc
+  280  vi ~/.bashrc
+  281  ll
+  282  #!/bin/bash
+  283  FIRST_NAME=$1
+  284  LAST_NAME=$2
+  285  echo "Hello, $FIRST_NAME $LAST_NAME"
+  286  mkdir MillerFl_A4
+  287  ll
+  288  cd MillerF_A4_shell
+  289  ls
+  290  cd
+  291  cd MillerFl_A4
+  292  vi echoing.sh
+  293  who
+  294  date
+  295  HOME
+  296  $HOME
+  297  $USER
+  298  USER
+  299  $USER
+  300  HOME
+  301  $HOME
+  302  cd
+  303  $USER
+  304  cd MillerFl_A4
+  305  vi echoing.sh
+  306  sh echoing.sh
+  307  vi echoing.sh
+  308  sh echoing.sh Ryan 25
+  309  vi echoing.sh
+  310  sh echoing.sh Ryan 25
+  311  vi echoing.sh
+  312  sh echoing.sh Ryan 25
+  313  vi echoing.sh
+  314  sh echoing.sh Ryan 25
+  315  vi echoing.sh
+  316  sh echoing.sh Ryan 25
+  317  vi echoing.sh
+  318  sh echoing.sh Ryan 25
+  319  vi echoing.sh
+  320  git status
+  321  cd
+  322  git status
+  323  ls
+  324  cd MillerFl_A4
+  325  git status
+  326  ls
+  327  git add echoing.sh
+  328  git branch
+  329  cd CS131_fa24_datafiles
+  330  cd
+  331  cd CS131_fa24_datafiles
+  332  ls
+  333  cd
+  334  exit
+  335  echo $my_variable
+  336  echo @good
+  337  echo $good
+  338  ls
+  339  ls -a
+  340  cat /etc/profile
+  341  ls ll
+  342  ll
+  343  git clone git@github.com:CS131-BigDataProcessing/mini-assignments-RMiller97.git
+  344  ls
+  345  mv MillerF* mini-assignments-RMiller97/.
+  346  ls mini-assignments-RMiller97/
+  347  cd mini-assignments-RMiller97/
+  348  ls MillerF_A4_shell
+  349  git status
+  350  git add MillerFl_A4/*
+  351  git commit -m "MillerFl_A4 added"
+  352  git config --global user.email "ryan.miller@sjsu.edu"
+  353  git commit -m "MillerFl_A4 added"
+  354  git config -u user.email "ryan.miller@sjsu.edu"
+  355  git commit -m "MillerFl_A4 added"
+  356  git config --global user.name "Ryan Miller"
+  357  git commit -m "MillerFl_A4 added"
+  358  ~/.gitconfig
+  359  cat ~/.gitconfig
+  360  ls
+  361  git status
+  362  pwd
+  363  ls -a 
+  364  git pull
+  365  git branch
+  366  git push
+  367  git add MillerFl_A4/*
+  368  git status
+  369  git commit -m "MillerFl_A4 added"
+  370  vi testgitpush.txt
+  371  git add testgitpush.txt 
+  372  git commit -m "Testing git config"
+  373  git push
+  374  git pull
+  375  git rm testgitpush.txt 
+  376  git commit -m "Removing testing git config"
+  377  git status
+  378  git push
+  379  ls -l
+  380  cd mini-assignments-RMiller97
+  381  ls
+  382  mkdir MillerFl_A5
+  383  ls
+  384  cd MillerFl_A5
+  385  vi Activity1_Age.sh
+  386  ls
+  387  vi age.sh
+  388  ls
+  389  vi age.sh
+  390  sh age.sh 5
+  391  vi age.sh
+  392  sh age.sh 5
+  393  sh age.sh 17
+  394  sh age.sh 48
+  395  sh age.sh 72
+  396  ls
+  397  vi temperature.sh
+  398  sh temperature.sh 62
+  399  vi temperature.sh
+  400  sh temperature.sh 62
+  401  vi temperature.sh
+  402  sh temperature.sh 62
+  403  vi temperature.sh
+  404  sh temperature.sh 62
+  405  sh temperature.sh 5
+  406  sh temperature.sh 97
+  407  sh temperature.sh 73
+  408  ls
+  409  ll
+  410  ls -l
+  411  ls
+  412  cd
+  413  ls
+  414  exit
+  415  ls -l
+  416  cd mini-assignments-RMiller97
+  417  ls -l
+  418  cd MillerFl_A5
+  419  ls -l
+  420  cd mini-assignments-RMiller97
+  421  ls -l
+  422  cd mini-assignments-RMiller97
+  423  cd
+  424  cd mini-assignments-RMiller97
+  425  ls -l
+  426  git add MillerFl_A5
+  427  git commit -m "Submitting A5"
+  428  git push
+  429  cd
+  430  exit
+  431  git status
+  432  ls -l
+  433  cd mini-assignments-RMiller97
+  434  git status
+  435  cd
+  436  cd CS131_fa24_datafiles
+  437  ls -l
+  438  git status
+  439  cd
+  440  ls -
+  441  ls 0l
+  442  ls -l
+  443  cd mini-assignments-RMiller97
+  444  ls -l
+  445  git pull
+  446  ls -l
+  447  git pull Lec08/airline_stat.csv
+  448  git status
+  449  cd
+  450  ls -l
+  451  git status
+  452  cd a1-collab-RMiller207
+  453  git status
+  454  git pull
+  455  ls -l
+  456  cd
+  457  cd CS131_fa24_datafiles
+  458  git status
+  459  git pull
+  460  ls -l
+  461  cd Lec08
+  462  ls -l
+  463  cd
+  464  cd CS131_fa24_datafiles
+  465  mv Lec08 ~./mini-assignments-RMiller97
+  466  mv Lec08 mini-assignments-RMiller97
+  467  ls -l
+  468  cd mini-assignments-RMiller97
+  469  ls -l
+  470  cd CS131_fa24_datafiles
+  471  git pull
+  472  ls -l
+  473  cd CS131_fa24_datafiles
+  474  cd
+  475  ls -l
+  476  cd CS131_fa24_datafiles
+  477  ls -l
+  478  git pull
+  479  ls -l
+  480  mv mini-assignments-RMiller97 Lec08
+  481  ls -l
+  482  cd Lec08
+  483  ls -l
+  484  cd
+  485  ls -l
+  486  cd mini-assignments-RMiller97
+  487  ls 0l
+  488  ls -l
+  489  mkdir MillerFl_A6
+  490  ls -l
+  491  mv ~/CS131_fa24_datafiles/Lec08 ~/mini-assignments-RMiller97/MillerFl_A6
+  492  ls -l
+  493  cd MillerFl_A6
+  494  ls -l
+  495  cd Lec08
+  496  ls -l
+  497  cd
+  498  ls -l
+  499  cd CS131_fa24_datafiles
+  500  ls -l
+  501  cd
+  502  ls -l
+  503  cd mini-assignments-RMiller97
+  504  ls -l
+  505  cd MillerFl_A6
+  506  ls -l
+  507  cd Lec08
+  508  ls -l
+  509  cat airline_stats.csv
+  510  vi airline_inquiry.txt
+  511  awk -F, '{print $4}' airline_stats.csv
+  512  ?uniq
+  513  uniq?
+  514  man uniq
+  515  awk -F, '{print $4uniq}' airline_stats.csv
+  516  awk -F, '{print $4}'uniq airline_stats.csv
+  517  awk -F, '{print $4}' uniq airline_stats.csv
+  518  awk -F, '{print $4} uniq' airline_stats.csv
+  519  man uniq
+  520  awk -F, uniq, '{print $4} uniq' airline_stats.csv
+  521  awk uniq -F, '{print $4} uniq' airline_stats.csv
+  522  awk -F, '{print $4} uniq' airline_stats.csv | uniq
+  523  awk -F, '{print $4} uniq' airline_stats.csv | sort | uniq
+  524  head airline_stats.csv
+  525  vi airline_inquiry.txt
+  526  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  527  vi airline_inquiry.txt
+  528  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort 
+  529  vi airline_inquiry.txt
+  530  p_value=15
+  531  awk -v pv="$p_value" '{ if ($1 > pv) print $4 }' airline_stats.csv | sort
+  532  awk -v pv="$p_value" '{ if ($1 > pv) print $4 }' airline_stats.csv | sort | uniq
+  533  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  534  vi airline_inquiry.txt
+  535  ls -l
+  536  cd mini-assignments-RMiller97
+  537  ls -l
+  538  cd MillerFl_A6
+  539  ls -l
+  540  cd Lec08
+  541  ls -l
+  542  awk -
+  543  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  544  awk -v Threshold=15 -F, '{ if ($1>Threshold) print $4 }' airline_stats.csv|sort|uniq
+  545  vi airline_inquiry.txt
+  546  awk -F, '{print $4}' airline_stats.csv|sort|uniq
+  547  history > a6_cmds.log
