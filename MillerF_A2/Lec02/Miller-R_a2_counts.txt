@@ -1,0 +1,8 @@
+Line Count: 6
+# This number represents the number of lines that contain the phrase "Good luck, babe"
+
+Word Count: 78
+# This number represents the number of words that are contained within the lines containing the phrase "Good luck, babe"
+
+***Word Count***: 18
+# This number represents the number of words that are contained within the lines containing the phrase "Good luck, babe". However, it only includes the words within the phrase "Good luck, babe". All other words within the line are discarded.
