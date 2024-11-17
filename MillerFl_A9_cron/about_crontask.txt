@@ -1,0 +1,14 @@
+# 1. What other types of tasks (provide 2) could benefit from automation using cron or at?
+
+* Weekly Maintenance - Clearing website cache data every week could maintain optimal performance.
+
+* Video Game Updates (at) - at can be used to specify when to update video game software (for example, when the user is likely asleep).
+
+# 2. What potential risks are there with poorly managed automated tasks, and how can you avoid them?
+
+* Backup failures - When the system fails to backup, you are left unaware and surprised when you lose data and search for a non-existent backup
+  Avoid by - Displaying a message the shows whenever a backup routine fails.
+
+* Errors in Code - For automated tasks, these can have huge breaking consequences.
+  Avoid by - Triple checking that your code is correct and testing for all cases before automating.
+
